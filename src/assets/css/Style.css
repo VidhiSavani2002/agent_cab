@@ -1,0 +1,109 @@
+/* common class */
+label{
+    color: rgb(136, 132, 132);
+    font-weight: 500;
+}
+
+
+
+/* SIDEBAR PAGES */
+.sidebar-list{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.sidebar-page{
+    background-color: rgb(27, 27, 31);
+    color: rgb(173, 172, 172);
+    height:100vh;
+}
+.sidebar-logo{
+    height: 10vh;
+    text-align: center;
+}
+.nav-item{
+    height: 9vh;
+    margin-left: 1px;    
+}
+.nav-item a{
+    color: rgb(136, 132, 132);
+    font-weight: 500;
+}
+.nav-item a:hover{
+    color: black;
+}
+.nav-item:hover{
+    background-color: rgb(155, 152, 152);
+    box-shadow: rgb(87, 92, 97) 0px 20px 30px -10px inset; 
+    color:black;
+}
+.sidebar-icon{
+    font-size: 1.6rem;
+}
+
+
+/* TOPBAR PAGES */
+a{
+    color: #808080cc!important;
+    text-decoration: none;
+}
+button a{
+    color:white!important;
+}
+.topbar-toggle{
+    color: #808080cc;
+}
+.topbar-p{
+    color: #808080cc;
+}
+
+.topbar-list{
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+.custome-topbar{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 10vh;
+    margin: 15px 25px 15px 15px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+.demo{
+    font-size: 2rem;
+    display: grid;
+    margin-bottom: 25px;
+}
+
+.topbar-name{
+    font-size: 13px;
+    color: #808080cc;
+    font-weight: 500;
+}
+
+
+.avatar-icon{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+
+/* Dashboard pages */
+
+.dashboard-head{
+    text-align: center;
+    color: #686161c2;
+    text-transform: uppercase;
+}
+
+.custom-dashboard {
+    /* background-color: red; */
+    width: 90%;
+    display: grid;
+    justify-content: normal;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 1px solid black;
+    align-content: center;
+}
